@@ -27,7 +27,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/api/contact", formData);
+      const response = await axios.post("https://myportfolio-ye6f.onrender.com/api/contact", formData);
 
       if (response.data.success) {
         setResponseMsg("✅ Message sent successfully!");
