@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+
 import { motion } from 'framer-motion';
 
 const projects = [
@@ -69,7 +69,7 @@ const badgeColors = [
 const Projects = () => {
   return (
     <>
-      <Navbar />
+    
       <div
         className="min-h-screen py-20 bg-gradient-to-b from-white via-indigo-50 to-purple-100"
         id="projects"

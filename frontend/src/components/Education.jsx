@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+
 import { motion } from 'framer-motion';
 
 const education = [
@@ -44,7 +44,7 @@ const cardVariants = {
 const Education = () => {
   return (
     <>
-      <Navbar />
+      
       <div className="min-h-screen py-20 bg-gradient-to-b from-white via-purple-50 to-pink-100" id="education">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-extrabold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">

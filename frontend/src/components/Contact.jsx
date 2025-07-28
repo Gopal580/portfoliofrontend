@@ -1,7 +1,7 @@
 // src/components/Contact.jsx
 import React, { useState } from 'react';
 import axios from 'axios';
-import Navbar from './Navbar';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -45,7 +45,7 @@ const Contact = () => {
 
   return (
     <>
-      <Navbar />
+    
       <div className="min-h-screen py-20 bg-gradient-to-br from-yellow-50 via-pink-50 to-purple-100" id="contact">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-extrabold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">

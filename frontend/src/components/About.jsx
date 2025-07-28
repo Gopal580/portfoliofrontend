@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+
 import { motion } from 'framer-motion';
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
     <>
     {/* <div className="min-h-screen py-16 bg-white" id="about"> */}
 
-      <Navbar />
+      
       <div className="min-h-screen py-20 bg-gradient-to-br from-purple-100 via-pink-50 to-yellow-100" id="about">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <motion.h2
